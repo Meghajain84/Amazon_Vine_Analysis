@@ -4,7 +4,7 @@ The main purpose is to analyze the amazon product reviews to find if there is an
 I chose the US jewellery dataset. Then I used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, I used PySpark to determine if there is any bias toward favorable reviews from Vine members in the jewellery dataset.
 
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
-![paid vs unpaid analysis](https://github.com/Meghajain84/MechaCar_Statistical_Analysis/blob/main/deliverable1.PNG)
+![paid vs unpaid analysis](https://github.com/Meghajain84/Amazon_Vine_Analysis/blob/main/finding_bias.PNG)
 * How many Vine reviews and non-Vine reviews were there?
     * There were 21 vine reviews vs 7689 non-Vine reviews
 * How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
